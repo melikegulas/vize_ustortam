@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ege Universitesi</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  </head>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-xs visible-md visible-lg ">
+            <div id="logo-img"></div>
+          </a>
+          
+          <div class="navbar-brand">
+            
+          </div>
+
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="index.html">
+                <span class="glyphicon glyphicon-time"></span><br class="hidden-xs"> Tarihçe</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-user"></span><br class="hidden-xs"> Personel</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-book"></span><br class="hidden-xs"> Eğitim</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div id="main-content" class="container">
+      <div id="inner-content"></div>
+
+      <div id="home-tiles" class="row">
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <a href="#"><div id="menu-tile" onclick="$bilmuh.loadEgitim()"><span>eğitim</span></div></a>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <a href="#"><div id="specials-tile" onclick="$bilmuh.loadPersoneltip()"><span>personel</span></div></a>
+          </div>
+          <div class="col-md-4 col-sm-12 col-xs-12">
+            <a href="https://www.google.com.tr/maps/place/Ege+%C3%9Cniversitesi+Bilgisayar+M%C3%BChendisli%C4%9Fi+B%C3%B6l%C3%BCm%C3%BC/@38.4579885,27.2112153,17z/data=!3m1!4b1!4m5!3m4!1s0x14b97d2edf7e8e55:0x5fcc67a77466c8f3!8m2!3d38.4579885!4d27.213404" target="_blank">
+              <div id="map-tile">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3124.284683785603!2d27.211215314753538!3d38.45798847964082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b97d2edf7e8e55%3A0x5fcc67a77466c8f3!2zRWdlIMOcbml2ZXJzaXRlc2kgQmlsZ2lzYXlhciBNw7xoZW5kaXNsacSfaSBCw7Zsw7xtw7w!5e0!3m2!1str!2str!4v1508759946313" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen ></iframe>
+                <span>map</span>
+              </div>
+            </a>
+          </div>
+     </div>
+ </div>
+ <footer class="panel-footer">
+  <div class="container">
+    <div class="row">
+      <section id="YararlıLinkler" class="col-sm-3">
+        <span>Yararlı Linkler</span><br>
+        <div>
+        <a href="http://www.ege.edu.tr/" target=”_blank”>
+        <span class="glyphicon glyphicon-home" title="Ege Üniversitesi" /></a>
+        <a href="https://posta.ege.edu.tr/" target=”_blank”>
+        <span class="glyphicon glyphicon-envelope" title="Ege Posta(Yeni)" /></a>
+        </div>
+        <div>
+        <a href="http://egetel.ege.edu.tr/" target=”_blank”>
+        <span class="glyphicon glyphicon-phone-alt" title="Ege Tel"/></a>
+        <a href="http://egeduyuru.ege.edu.tr/" target=”_blank”>
+        <span class="glyphicon glyphicon-bullhorn" title="Ege Duyuru"/></a>
+         </div><div>
+        <a href="http://www.ege.edu.tr/tr-121/Mezun.html#tab-1" target=”_blank”>
+        <span class="glyphicon glyphicon-education" title="Ege Mezunlar"/></a>   
+        <a href="http://egeweb.ege.edu.tr/harita/" target=”_blank”>
+        <span class="glyphicon glyphicon-map-marker" title="Harita"/></a>
+         </div>
+        
+
+        
+        
+        <hr class="visible-xs">
+      </section>
+      <section id="address" class="col-sm-3">
+        <span>Adres</span><br>
+        Ege Üniversitesi<br>
+        Mühendislik Fakültesi<br>
+        Bilgisayar Mühendisliği<br>            
+        Bornova Metro İstasyonu Karşısı,<br>
+        35100 Bornova / İZMİR
+        
+        <hr class="visible-xs">
+      </section>
+      
+      <section id="iletisim" class="col-sm-3">
+        <span>İletişim</span><br>
+        Telefon<br>
+        <a href="tel://+902323887221">+90 232 388 72 21</a><br>
+        Faks<br>
+        <a href="tel://+902323399405">+90 232 339 94 05</a></a><br>
+        E-Posta<br>
+        <a href="mailto:bilmuh@mail.ege.edu.tr" target="_top">bilmuh@mail.ege.edu.tr</a>
+        
+        <hr class="visible-xs">
+      </section>
+      <section id="Sosyal Medya" class="col-sm-3">
+        <span>Sosyal Medya</span><br>
+        <div class="dropdown">
+          <span  class="glyphicon glyphicon-new-window"/>
+          <div class="dropdown-content">
+            <ul class="clearfix">
+                      <ul>
+                        <li><a href="http://www.facebook.com/eucompeng" target=”_blank” title="Facebook"><span class="fontawesome-facebook"></span></a></li>
+              
+                        <li><a href="http://twitter.com/UniversiteEge" target=”_blank” title="Twitter"><span class="fontawesome-twitter"></span></a></li>
+              
+                        <li><a href="http://plus.google.com/+egeuniversitesi" target=”_blank” title="Google+"><span class="fontawesome-google-plus"></span></a></li>
+              
+                        <li><a href="http://www.linkedin.com/in/eucompeng" target=”_blank” title="LinkedIn"><span class="fontawesome-linkedin"></span></a></li>
+                       
+                      </ul>
+              
+                    </li>
+              
+                  </ul>
+          </div>
+        </div>
+        
+        
+        <hr class="visible-xs">
+      </section>
+    </div>
+    <div class="text-center"> Ege Üniversitesi - Bilgisayar Mühendisliği Bölümü &copy; 2017</div>
+  </div>
+</footer>
+  <!--<footer class="panel-footer">
+      <div class="container">
+        <div class="row">
+          <section id="hours" class="col-sm-4">
+            <span>YARARLI LINKLER</span><br>
+            <ul>
+              <li>Ege Universitesi</li>
+              <li>Ege Posta(Eski)</li>
+              <li>Ege Yeni(Yeni)</li>
+              <li>Ege Tel</li>
+              <li>Ege Duyuru</li>
+              <li>Ege Mezunlar</li>
+            </ul>
+            <hr class="visible-xs">
+          </section>
+          <section id="address" class="col-sm-4">
+            <span>ADRES</span><br>
+            Ege Üniversitesi<br>
+            <br>
+            Mühendislik Fakültesi<br>
+            Bilgisayar Mühendisliği Bölümü<br>
+            <br>
+            Kazımdirik Mahallesi,<br>
+            Bornova Metro İstasyonu Karşısı,<br>
+            35100 Bornova/İZMİR<br>
+            <hr class="visible-xs">
+          </section>
+          <section id="iletisim" class="col-sm-4">
+            <span>İLETİŞİM</span><br>
+            Telefon<br>
+            <div>+90 232 388 72 21</div>
+            <br>
+            
+            Faks<br>
+            <div>+90 232 339 94 05</div>>
+            <br>
+            E-Posta<br>
+            <div id="mail">bilmuh@mail.ege.edu.tr</div>>
+            <br>
+            <hr class="visible-xs">
+          </section>
+        </div>
+        <div class="text-center">&copy; Copyright David Chu's China Bistro 2016</div>
+      </div>
+    </footer>-->
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/ajax-utils.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+[
+    {
+      "name": "Lisans",
+      "foto": "images/Screenshot_1.png",
+      "donemler": [
+        {
+          "name": "LGuz",
+          "foto": "images/Screenshot_1.png",
+          "sinif": [
+            {
+              "id": "1",
+              "foto": "images/Screenshot_1.png",
+              "ders_programi": "images/Screenshot_lisansguz_bir.png"
+            },
+            {
+              "id": "2",
+              "foto": "images/Screenshot_1.png",
+              "ders_programi": "images/Screenshot_lisansguz2.png"
+            },
+            {
+              "id": "3",
+              "foto": "images/Screenshot_1.png",
+              "ders_programi": "images/Screenshot_lisansguz3.png"
+            },
+            {
+              "id": "4",
+              "foto": "images/Screenshot_1.png",
+              "ders_programi": "images/Screenshot_lisansguz4.png"
+            }
+          ]
+        },
+        {
+          "name": "LBahar",
+          "foto": "images/Screenshot_1.png",
+          "sinif": [
+            {
+              "id": "1",
+              "foto": "images/Screenshot_1.png",
+              "ders_programi": "images/Screenshot_lisansbahar1.png"
+            },
+            {
+              "id": "2",
+              "foto": "images/Screenshot_1.png",
+              "ders_programi": "images/Screenshot_lisansbahar2.png"
+            },
+            {
+              "id": "3",
+              "foto": "images/Screenshot_1.png",
+              "ders_programi": "images/Screenshot_lisansbahar3.png"
+            },
+            {
+              "id": "4",
+              "foto": "images/Screenshot_1.png",
+              "ders_programi": "images/Screenshot_lisansbahar4.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yuksek Lisans",
+      "foto": "images/Screenshot_2.png",
+      "donemler": [
+        {
+          "name": "YGuz",
+          "foto": "images/Screenshot_2.png",
+          "ders_programi": "images/Screenshot_yukseklisansguz.png"
+        },
+        {
+          "name": "YBahar",
+          "foto": "images/Screenshot_2.png",
+          "ders_programi": "images/Screenshot_yukseklisansbahar.png"
+        }
+      ]
+    }
+  ]
